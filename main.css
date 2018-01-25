@@ -1,0 +1,110 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #000;
+    background-color: #f9fafc;
+}
+
+nav a {
+    display: block;
+    padding-top: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited{
+    color: black;
+}
+.hire {
+    width: 100%;
+    border: 1px #000 solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #000;
+    color: white !important;
+    text-align: center;
+}
+
+.box p {
+    border-left: 2px solid #69696a;
+    color: #69696a; 
+    padding-left: 5px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    color: #f9fafc !important;
+    background-color: #000;
+    border: #000 solid 1px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 992px){
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav a {
+        display: inline;
+        padding-right: 10px;
+    }
+    .circles {
+        position: relative;
+        height: 500px;
+        width: 500px;
+        float: right;
+        margin-top: 125px;
+    }
+    #pink {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 350px;
+        width: 350px;
+        border-radius: 350px;
+        background-color: rgba(247,136,167,0.6);
+    }
+    
+    #peach{
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        height: 300px;
+        width: 300px;
+        border-radius: 300px;
+        background-color: rgba(247,193,162,0.7);
+    }
+    #purple {
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        height: 200px;
+        width: 200px;
+        border-radius: 200px;
+        background-color: rgba(207,130,213,0.6);
+    }
+    .box {
+        width: 50%;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+    .btn {
+        position: relative;
+        margin: auto;
+        height: 25px;
+        width: 120px;
+        text-align: center;
+    }
+}
+
+
